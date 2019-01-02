@@ -2,13 +2,32 @@ body, html {
   height: 100%;
 }
 
+
+.name {
+  font-family: "Charm";
+}
+
+#nav-bar {
+  float: right;
+}
+
+.nav-item {
+  display: inline;
+  padding: 2rem;
+
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
 .title-row {
   background-image: url(../img/title.jpeg);
   min-height: 100%;
   min-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-
-
+  height: 50rem;
+  margin: 0;
 
 }
