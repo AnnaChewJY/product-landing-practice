@@ -1,10 +1,66 @@
 body, html {
   height: 100%;
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+  font-family: "Montserrat";
 }
 
+/* Title and header */
+#title {
+  background-image: url(../img/title.jpeg);
+  min-height: 80%;
+  min-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  opacity: 0.9;
+
+}
+
+#header {
+  padding: 1.3rem;
+}
+
+.title-row {
+  text-align: center;
+  margin: auto;
+  top: 50%;
+  width: 100%;
+  padding-top: 5rem;
+}
+
+.title-phrase {
+  font-size: 4rem;
+  padding: 1rem;
+  color: rgba(29, 28, 28, 0.95);
+}
+
+#email {
+  height: 1.8rem;
+  width: 15rem;
+  border-radius: 5px;
+  border: 1px solid #666;
+  background-color: #E6E6E6;
+}
+
+.join-button {
+  text-align: center;
+  padding-top: 1.3rem;
+}
+
+/* Nav bar  */
 
 .name {
   font-family: "Charm";
+  display: inline;
+  padding-left: 0.25rem;
+  font-size: 30px;
+  margin: 0;
+}
+
+.logo {
+  padding: 0.75rem 0 0 1rem;
 }
 
 #nav-bar {
@@ -14,20 +70,33 @@ body, html {
 .nav-item {
   display: inline;
   padding: 2rem;
-
 }
 
 .nav-item a {
   text-decoration: none;
+  color: inherit;
 }
 
-.title-row {
-  background-image: url(../img/title.jpeg);
-  min-height: 100%;
-  min-width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 50rem;
-  margin: 0;
+.nav-item a:hover {
+  text-decoration: none;
+  color: #E6E6E6;
+}
 
+/* How it works section */
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0 2.5rem;
+  background-color: #E6E6E6;
+}
+
+.feature {
+  width: 20%;
+  text-align: center;
+
+}
+
+.feature-icon {
+  padding: 0.7rem;
 }
