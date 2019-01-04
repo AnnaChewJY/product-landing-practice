@@ -14,34 +14,34 @@
 
   <section id="title">
     <header id="header">
-
-      <i id="header-img" class="fas fa-couch fa-2x logo"></i>
+      <img id="header-img" src="https://img.icons8.com/metro/1600/sofa.png" />
       <h3 class="name">Sofasurf</h3>
       <nav id="nav-bar">
-        <ul class="nav-link">
+
+
+        <ul class="nav-lists">
           <li class="nav-item">
-            <a href="#howitworks"> How It Works</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
           </li>
           <li class="nav-item">
-            <a href="#reviews"> Reviews </a>
+            <a class="nav-link" href="#footer">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a href="#"> Register </a>
-          </li>
-          <li class="nav-item">
-            <a href="#"> Log In </a>
+            <a class="nav-link" href="#email">Register</a>
           </li>
         </ul>
-      </nav>
+
+
+    </nav>
 
     </header>
     <div class="title-row">
-      <h1 class= "title-phrase">THE BEST WAY TO TRAVEL IS TO BE LOCAL</h1>
+      <h1 class="title-phrase">THE BEST WAY TO TRAVEL IS TO BE LOCAL</h1>
       <div class="call-to-action">
-        <form id="form" class="" action="index.html" method="post">
-          <input id="email" type="email" placeholder="Enter your email address">
+        <form id="form" class="" action="https://www.freecodecamp.com/email-submit" method="get">
+          <input id="email" type="email" name="email" placeholder="Enter your email address">
           <div class="join-button">
-            <button class="btn btn-light btn-online btn-sm" id="submit" type="button"> JOIN </button>
+            <input class="btn btn-light btn-online btn-sm" id="submit" type="submit" formmethod="post"></input>
           </div>
 
 
@@ -75,18 +75,18 @@
 
   </section>
 
-  <section id="video">
-    <!-- put video here  -->
+  <section id="video-section">
+    <iframe id="video" width="450" height="316" src="https://www.youtube.com/embed/QdEsM7-_DLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
   </section>
 
-  <section id="reviews">
-    <!-- put carousel slide from bootstrap -->
-  </section>
 
   <footer id="footer">
     <i class="fab fa-twitter footer-icons"></i> <i class="fab fa-facebook-f footer-icons"></i> <i class="fab fa-instagram footer-icons"></i> <i class="fas fa-envelope footer-icons"></i>
     <p class="copyright">© Copyright 2018 Sofasurf</p>
   </footer>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
